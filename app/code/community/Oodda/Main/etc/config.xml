@@ -1,0 +1,39 @@
+<config>
+    <modules>
+        <Oodda_Main>
+            <version>1.0.0</version>
+        </Oodda_Main>
+    </modules>
+    <global>
+        <helpers>
+            <main>
+                <class>Oodda_Main_Helper</class>
+            </main>
+        </helpers>
+    </global>
+    <adminhtml>
+    <acl>
+        <resources>
+            <all>
+                <title>Allow Everything</title>
+            </all>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <main>
+                                        <title>Oodda - All</title>
+                                    </main>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+	</adminhtml>
+
+</config>

@@ -1,0 +1,2 @@
+<?php
+class Mage_Firstdataglobalgateway_Model_Firstdataglobalgateway_Request extends Varien_Object { }

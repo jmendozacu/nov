@@ -1,0 +1,46 @@
+<config>
+    <modules>
+        <Oodda_Gacustomdimensions>
+            <version>1.0.0</version>
+        </Oodda_Gacustomdimensions>
+    </modules>
+    <global>
+        
+        <helpers>
+            <gacustomdimensions>
+                <class>Oodda_Gacustomdimensions_Helper</class>
+            </gacustomdimensions>
+        </helpers>
+		<blocks>
+				<googleanalytics>
+					<rewrite>
+						<ga>Oodda_Gacustomdimensions_Block_Ga</ga>
+					</rewrite>
+				</googleanalytics>
+		</blocks>
+    </global>
+<adminhtml>
+    <acl>
+        <resources>
+            <all>
+                <title>Allow Everything</title>
+            </all>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <gacustomdimensions>
+                                        <title>Oodda - All</title>
+                                    </gacustomdimensions>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</adminhtml>
+</config>

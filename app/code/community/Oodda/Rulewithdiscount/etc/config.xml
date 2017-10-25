@@ -1,0 +1,45 @@
+<config>
+    <modules>
+        <Oodda_Rulewithdiscount>
+            <version>1.0.0</version>
+        </Oodda_Rulewithdiscount>
+    </modules>
+    <global>
+        <helpers>
+            <rulewithdiscount>
+                <class>Oodda_Rulewithdiscount_Helper</class>
+            </rulewithdiscount>
+        </helpers>
+		<models>
+				<salesrule>
+					<rewrite>
+						<rule_condition_address>Oodda_Rulewithdiscount_Model_SalesRule_Rule_Condition_Address</rule_condition_address>
+					</rewrite>
+				</salesrule>
+		</models>
+    </global>
+<adminhtml>
+    <acl>
+        <resources>
+            <all>
+                <title>Allow Everything</title>
+            </all>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <rulewithdiscount>
+                                        <title>Oodda - All</title>
+                                    </rulewithdiscount>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</adminhtml>
+</config>

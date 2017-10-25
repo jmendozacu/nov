@@ -1,0 +1,261 @@
+FREE GIFT PRO
+
+Legend:
++ new features added
+* bug fix
+
+v3.5.2 (December 09, 2015)
++ Update to be compatible with new security patch SUPEE-6788
+
+v3.5.1 (Feb 06, 2015)
++ Display an error message if current theme is missing layout file or template folder
+* Fix bug promotion for jquery plugins library
+* Fix bug css on Magento CE 1.9
+
+v3.5.0 (November 28, 2014)
++ New visual graphs report based on free gift value and order value
++ Allow to offer free gift for social sharing
+* Fix show Free Gift promotion bug
+* Fix display issue on Magento CE1.9 and Magento EE
+
+
+v3.3.2 (July 23, 2014)
++ Update to be compatible with magento CE 1.9.x and EE 1.14.x
+
+v3.3.1(April 18, 2014)
+* fix bug Influence of the default shopping cart rule on free gifts shopping cart rule
+
+v3.3.0 (April 12, 2014)
+ * Optimize ajax functions
+
+v3.2.1(January 13,2014)
+
++ Catalog rule support function "Buy X get Y gift "
+* Fixed some bugs
+
+v3.0 (December 4, 2013)
++ Support configurable product as free gift for catalog rule
++ Ajax add to cart & edit free gift option
+*  Fixed some bugs, performance, compatible with Magento 1.8
+
+
+v2.4.0 (Sep 30, 2013)
+
+* Fixed bug can not re-order in my account dashboard for the order that is made with freegift rule.
+
+v2.3.9 (August 16, 2013)
+* Fixed bug "can not add gift when order satifies more than two shopping cart rules which have same gifts in gift list".
+* Fixed bug "counting gift items as product items for shoping cart - qty & weight condition".
+
+v2.3.8 (August 13, 1023)
+* Fixed bug processing loop on EE
+
+v2.3.7 (July 19, 2013)
+
+* Fixed bug, relating to combination condition of weight and qty  (shopping cart rule) 
+
+v2.3.6 (July 17, 2013)
+* Fixed bug "disable products are not displayed in free gifts list(out of stock issue).
+* Fixed bug weight issue
+
+v2.3.5 (May 29th, 2013)
+* Fixed price format in gift selection box
+* Fixed disable extension bug
+
+
+v2.3.4 (May 21th, 2013)
++ optimize code
++ Update mcore
+
+v2.3.2 (May 13th, 2013)
++ Display freegift coupon box with applying shopping cart rule
++ Update to allow applying 1 free gift coupon only
++ Integrate free gift coupon box with discount code.
+
+v2.2.9 (April 26th, 2013)
++ Optimize code
+* Fixed bug not showing freegift when use coupon with gift item is configurable product.
+* Fixed bug can not remove freegift item when main product deleted.
+* Fixed bug related to the free gift's suffix code.
+* Fixed bug the grouped product is added to cart within the price of 0.
+* Fixed layout conflict with the extension mw_dailydeal at the product view page
+
+v2.2.2 (Feb 17th, 2013)
++ Intergrate license activation
++ Update Jquery library
+* Fix warning in file system.log
+* Fix custom option name issue
+
+v2.1.8.5 (January 18, 2013)
+* fix bug "shopping cart rule, for configurable products, meet error with the number of free gifts field"
+* fix bug "CE 1.5 - If use Auto Generation, when save rule, it shows warning of inputting the Coupon Code field".
+* fix bug "EE : in the detail product page, not show tooltips".
+* fix bug "get normal price of free gift that is a special configurable product".
+* fix bug "If there is a shopping cart rule, having the field “Stop Further Rules Processing” = yes, not show promotion".
+
+v2.1.8.3 (January 14, 2013)
+* fix bug "Error show up when shopping cart rule has one free configurable product"
+
+v2.1.8.2 (Dec 19th, 2012)
+* fix bug "customer can select free gift more than one time in case of the rule has 1 free gift"
+* fix bug "In shopping cart, free gifts of Catalog Rule is shown only when there is a list of Shopping Cart Rule's gift. "
+* fix bug " for Shopping cart rule (condition = empty; gift = bundle product) when remove main product then the free gifts still exist."
+
+v2.1.4 (Nov 22th, 2012)
++ Update the texts and the translation file
+* Fix the problem with multiple shipping mode
+
+v2.1.1 (Nov 13th, 2012)
+* fix bug "CSS problem in the cart 
+* fix bug "When the shopping cart rule is with NO CONDITIONS - is automatically meet - but the products are not added in cart. It shows the sidebar with gifts to add to cart - while main product is not added yet. The rule should choose if any product is added to the cart - because gifts without normal product cannot be added to the cart"
+* fix bug "When 'Number of Free Gift' field is empty - it allows infinite QTY of gifts to be added"
+* fix bug "If 'Number of Free Gift' is more than 1. Side bar block with gifts allows to add the same GIFT many times, while in the cart - GIFTS are eliminated one by one". 
+* fix bug "When The 2 shopping Cart rules are set at the same time with banners and promotional messages,  cause error on cart"
+* fix bug "Related to SIDE BAR"
+
+v2.1 (Nov 7th, 2012)
++ New design
++ Optimze theme/javascript for Mageno CE/EE
+
+v2.0 (Oct 20th, 2012)
+New Features:
++ Show the rule description tooltips when hover on the free gift
++ Support promotion banner on shopping cart and checkout page
++ Support promotion message on shopping cart and checkout page
++ Allows to give more than one free gift per rule
++ Mutiple coupons with auto generation.
+Fixed Bugs 
+* fix bug "Apply Rules not work"
+
+v1.4 (Otc 11, 2012)
+* fix bug "Link free gifts in product page not url friendly"
+* fix bug "Free gift only display regular price and not display special price"
+* fix bug "Auto-remove conditions"
+* fix bug "Strict Notice and Warning in log files"
+
+v1.3.15 (October 30,2012)
+
+* Optimize code
+
+v1.3.14 (October 18,2012)
+* fixed bug - remove rule condition after checking out order
+* change warnings in system.log
+
+v1.3.13 (September 19, 2012)
+
+* Fixed error when quickly add free gift
+
+v1.3.12 (September 14, 2012)
+
+* Fixed error when add free gift at shopping cart page
+
+v1.3.10 (August 10, 2012)
+* Fixed error when applying multiple rules - select more than one freegift for one rule 
+* Fixed error when automically adding one freegift - add more than one time
+* Fixed error when insert free gift code - show blank page
+* Fixed error not show title and description for added free gift.
+
+v1.3.3 (July 17, 2012)
+
+* Fixed getTable() and permisssion error
+
+v1.3.2 (June 8, 2012)
+
+* Compatiple with CE 1.7.0.0 and EE 1.1.2
+
+* Fixed unable save website Ids and Customers group Ids after checkout an order
+
+* Fixed Tax issues: adding double tax, deducted tax
+
+
+v1.3.0 (June 4, 2012) 
+* Fixed error related to grouped product type
+* Fixed error on Magento 1.7 that relate to Free-gift code, can not save general information
+* Fixed error on Enterprise 112:
+  - Can not save Website IDs and Customer Group IDs
+  - Error when add/edit shopping cart rule
+
+v1.2.7 (March 7, 2012)
+
+Fixed the total items of cart including free gift when validate rule
+
+v1.2.6 (September 20, 2011)
+
++ Added the button "Save and apply" in catalog rule adding page.
+
+* Fixed some configurable product related problems.
+
+* Fixed  auto-loading data when empty some fields.
+
+
+v1.2.5 (August 17, 2011)
+
+* Fixed issue of free gift shoppig cart rule. if we create a condition like item has brand="brand1" the rule is reached in shopping cart but the free gift do not be displayed.
+
+v1.2.4.2 (August 13, 2011)
+
+* Fixed issue when adding the same item in cart several times: added items don't merge in one single row
+
+v1.2.4.1 (August 9, 2011)
+
+* Fixed some issues with creating rules.
+
+v1.2.3.4 (July 30, 2011)
+
+* Fix some issues with magento enterprise 1.10.1.1
+
++ Add feature "apply rules" for catalog rule to decrease processing and loadding time
+
+v1.2.3 (July 29, 2011)
+
+* Added feature: free gift coupon code with multiple coupon support.
+
++ Compatibility with magento Enterprise.
+
+v1.2.1 (July 20, 2011)
+
+* Fixed when discount_qty is zero the shopping cart rule alway be applied.
+
+* Fixed when discount_qty is zero the catalog rule alway be applied.
+
+* Fixed appling any free gift coupon code.+ Hide free gift has copon code on promotions box.
+
+v1.2 (July 8, 2011)
+
++ Support Free Gift coupon code
+
++  change core of free gift (not be magento core) to increase processing time.
+
+v1.1.5.2 (July 1, 2011)
+
++ Support Configurable product
+
+v1.1.5.1 (June 24, 2011)
+
+* Fixed some problem when adding free gift to cart
+
+v1.1.5 (June 23, 2011)
+
+* Fixed tax error : free gift rules only apply for subtotal excluded tax instead of apply for subtotal included tax(if you set subtotal is included tax)
+
+v1.1.4 (June 9, 2011)
+
+* Fixed error when adding product to cart the total amount not be re-calculated
+
+ v1.1.3 (May 29, 2011)
+
+* Fixed error free gift item is automatically removed when process checkout
+
+v1.1.2 (May 19, 2011)
+
+* Fixed error make all items price to 0 when adding product to cart
+
+v1.1.0 (May 15, 2011)
+
++ Added promotions block to cart (customer can see all free gift promotions)
+
+v1.0
+
+Extension realease
+
+

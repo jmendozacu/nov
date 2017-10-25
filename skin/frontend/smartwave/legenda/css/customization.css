@@ -1,0 +1,14 @@
+/* ------------------ Slider -----------------------  */
+#fleft_holder {
+    height: 100% !important;
+}
+#fright_holder {
+    height: 100% !important;
+}
+
+#ampromo-overlay #ampromo-items .ampromo-item-image {
+    display: block;
+    margin: 0 auto;
+    height: 208px !important;
+    width: 208px !important;
+}

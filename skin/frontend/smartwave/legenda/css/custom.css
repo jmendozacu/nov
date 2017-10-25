@@ -1,0 +1,224 @@
+.homegrid p{
+
+}
+.homegrid h3{
+    font-size: 22px;
+    text-transform: initial;
+    /*padding-left: 5%;
+    padding-right: 5%;*/
+}
+.background{
+    background: #dff1fb;
+}
+
+.homegrid .image{
+    position: relative;
+}
+
+.new-padding{
+    
+padding: 3px;
+    
+    
+}
+.ui-slider .ui-slider-range{
+background:#E1F7F4 !important;
+
+}
+
+.ui-slider .ui-slider-handle{
+	background:#8FCFC5 !important;
+}
+
+#esns_box_subscribe_submit a {
+    color: #000 !important;
+    font-size: 16px;
+    background-color: #beeae5;
+}
+#esns_box_subscribe_submit a {
+        border: 1px solid #beeae5;
+    margin: 0 auto;
+}
+#esns_box_subscribe_submit a
+{
+    width: 150px;
+}
+#esns_box_subscribe_input input {
+    border: 2px solid #beeae5 !important;
+}
+
+ul.checkout-types.bottom {
+    float: right;
+}
+/**
+.mcontainer{
+    width:100%;
+    position: relative;
+    
+    height:100%;
+    
+ 
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    
+}
+.mimage-slider-wrapper{
+    overflow: hidden;
+}
+#mimage_slider{
+    position: relative;
+    height: auto;
+    padding:0;
+}
+#mimage_slider li{
+    max-width: 100%;
+    float:left;
+    list-style: none;
+}
+#mimage_slider li img{
+  
+    
+}*/
+
+
+
+/* ------------------ Slider -----------------------  */
+#fleft_holder {
+    height: 100% !important;
+}
+#fright_holder {
+    height: 100% !important;
+}
+.fright {
+    top: 35% !important;
+}
+.fleft {
+    top: 35% !important;
+}
+
+.main-container.container.col1-layout p{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.about-us .row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.about-us h4 {
+    padding-left: 5%;
+}
+
+.returns ol {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.row{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+
+/* ------------------ iii-moisture-retention -----------------------  */
+
+ .iii-moisture-retention{
+        width:100%;
+        
+    }
+    .iii-moisture-retention h4{
+        text-align: center;
+        text-transform: inherit;
+        font-size: 20px;
+    }
+    .iii-moisture-retention ul{
+        padding-left: 20%;
+    }
+    .iii-moisture-retention p {
+        text-align: center;
+    }
+    .iii-moisture-retention img{
+        margin: 0 auto;
+    }
+    .step-content{
+        width:80%;
+        text-align: left !important;
+        padding-top:10px;
+        margin: 0 auto;
+    }
+    .step-title{
+        text-align: left !important;
+    }
+
+
+/* ------------------ iii-moisture-retention -----------------------  */
+
+
+
+
+
+#esns_box_subscribe_submit{
+    
+    margin-top: 10px;
+    
+    
+}
+
+
+
+.promo-info{
+    
+    background: #71b2ef;}
+
+
+
+
+
+.button .btn-compare{
+    float:right; margin-top: 4px;
+}
+
+
+/*home-page-equal-height-block*/
+
+a:hover {
+    text-decoration: none;
+    
+}
+.center-block{
+    height: 45vh;
+    display: table;}
+.margin-3{margin:3px;}
+.equal-height{display:flex;}
+.margin-3{margin:3px;}
+.equal-height{display:flex;}
+    .home-img-2{padding: 10% 10%;}
+     .home-block-content{display:table;
+        margin:0 auto;} 
+    .center-div{
+        display: table-cell;
+        vertical-align: middle;}
+    .home-img-4{padding-top: 35%;padding-bottom: 17%;padding-left: 10%;padding-right: 10%;}
+    @media(max-width:767px){
+          .center-block{
+              height: inherit;}
+        .home-img-2{padding: 5% 20%;}
+        .equal-height{display:block;}
+        .home-img-4{padding-top: 5%;
+            padding-bottom:5%;
+            padding-left: 10%;
+            padding-right: 10%;}
+        .center-div{position: inherit;
+            top: inherit;
+            transform: inherit;
+            padding-top: 15%;}
+    }
+.nav-sublist-dropdown li.menu-item {
+    width: 200px;
+}
+
+
+.nav-sublist-dropdown a {
+    text-align: center;
+}

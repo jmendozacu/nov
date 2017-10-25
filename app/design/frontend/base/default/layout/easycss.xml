@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ 
+-->
+<layout version="0.1.0">
+
+    <!-- global -->
+    <default>
+        <reference name="head">
+            <action method="addItem"><type>skin_css</type><name>css/customization/global.css</name></action>
+        </reference>
+    </default>
+    
+    <!-- category page -->
+    <catalog_category_view>
+        <reference name="head">
+            <!-- customization css file category.css -->
+            <action method="addItem"><type>skin_css</type><name>css/customization/category.css</name></action>
+        </reference>
+    </catalog_category_view>
+
+    <!-- category page -->
+    <catalog_product_view translate="label">
+        <reference name="head">
+            <!-- customization css file product.css -->
+            <action method="addItem"><type>skin_css</type><name>css/customization/product.css</name></action>
+        </reference>
+    </catalog_product_view>
+
+    <!-- search result page -->
+    <catalogsearch_result_index translate="label">
+        <label>Quick Search Form</label>
+        <reference name="root">
+            <action method="setTemplate"><template>page/2columns-left.phtml</template></action>
+        </reference>
+        <reference name="head">
+            <!-- customization css file category.css -->
+            <action method="addItem"><type>skin_css</type><name>css/customization/category.css</name></action>
+        </reference>
+    </catalogsearch_result_index>
+
+    <!-- product page -->
+    <catalog_product_view translate="label">
+        <reference name="head">
+            <!-- customization css file product.css -->
+            <action method="addItem"><type>skin_css</type><name>css/customization/product.css</name></action>
+        </reference>
+    </catalog_product_view>
+
+    <!-- cms -->
+    <cms_page translate="label">
+        <reference name="head">
+            <!-- customization css file cms.css -->
+            <action method="addItem"><type>skin_css</type><name>css/customization/cms.css</name></action>
+        </reference>
+    </cms_page>
+
+    <!-- cart -->
+    <checkout_cart_index translate="label">
+        <reference name="head">
+            <action method="addItem"><type>skin_css</type><name>css/customization/checkout.css</name></action>
+        </reference>
+    </checkout_cart_index>
+
+
+</layout>
+
+

@@ -1,0 +1,66 @@
+<config>
+    <modules>
+        <Oodda_Cancelemail>
+            <version>1.0.0</version>
+        </Oodda_Cancelemail>
+    </modules>
+
+    <global>
+        <models>
+            <cancelemail>
+                <class>Oodda_Cancelemail_Model</class>
+            </cancelemail>
+        </models>
+        <helpers>
+            <cancelemail>
+                <class>Oodda_Cancelemail_Helper</class>
+            </cancelemail>
+        </helpers>
+        <events>
+            <order_cancel_after>
+                <observers>
+                    <mail_status_change>
+                        <type>singleton</type>
+                        <class>cancelemail/observer</class>
+                        <method>invoicedStatusChange</method>
+                    </mail_status_change>
+                </observers>
+            </order_cancel_after>
+        </events>
+        <template>
+            <email>
+                <custom_order_tpl module="Oodda_Cancelemail">
+                    <label>Status Mail Invoice</label>
+                    <file>cancel_email.html</file>
+                    <type>html</type>
+                </custom_order_tpl>
+            </email>
+        </template>
+    </global>
+
+    <adminhtml>
+    <acl>
+        <resources>
+            <all>
+                <title>Allow Everything</title>
+            </all>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <cancelemail>
+                                        <title>Oodda - All</title>
+                                    </cancelemail>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</adminhtml>
+
+</config>

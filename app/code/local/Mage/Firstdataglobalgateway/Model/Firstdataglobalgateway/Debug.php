@@ -1,0 +1,2 @@
+<?php
+class Mage_Firstdataglobalgateway_Model_Firstdataglobalgateway_Debug extends Mage_Core_Model_Abstract { protected function _construct() { $this->_init('paygate/firstdataglobalgateway_debug'); } }

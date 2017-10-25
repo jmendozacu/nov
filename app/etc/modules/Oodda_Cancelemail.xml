@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<modules>
+		<Oodda_Cancelemail>
+			<active>true</active>
+			<codePool>community</codePool>
+		</Oodda_Cancelemail>
+	</modules>
+</config>

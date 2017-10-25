@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+
+    <sections>
+        <easycss translate="label" module="easycss">
+            <label>Easy CSS</label>
+            <tab>oodda</tab>
+            <sort_order>1001</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+ 
+            <groups>
+                <oodda_group_easycss translate="label" module="easycss">
+                    <label>General</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1000</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <comment>customization css files locate at /skin/frontend/base/default/css/customization</comment>
+                </oodda_group_easycss>
+            </groups>
+        </easycss>
+    </sections>
+</config>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+
+    <sections>
+        <rulewithdiscount translate="label" module="rulewithdiscount">
+            <label>Promo Rule with Discount</label>
+            <tab>oodda</tab>
+            <sort_order>1003</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+ 
+            <groups>
+                <oodda_group_rulewithdiscount translate="label" module="rulewithdiscount">
+                    <label>General</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1000</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <comment>Subtotal with Discount has been added as a promotion rule conditon.</comment>
+                </oodda_group_rulewithdiscount>
+            </groups>
+        </rulewithdiscount>
+    </sections>
+</config>

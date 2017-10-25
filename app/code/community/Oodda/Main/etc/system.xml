@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<tabs>
+        <oodda translate="label" module="main">
+            <label>oodda Extensions</label>
+            <sort_order>100</sort_order>
+        </oodda>
+    </tabs>
+    <sections>
+        <main translate="label" module="main">
+            <label>OODDA.com</label>
+            <tab>oodda</tab>
+            <sort_order>999</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+ 
+            <groups>
+                <oodda_group_main translate="label" module="main">
+                    <label>General</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1000</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <comment>This plugin is developed by oodda.com.</comment>
+                </oodda_group_main>
+            </groups>
+        </main>
+    </sections>
+</config>

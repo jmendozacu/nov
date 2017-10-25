@@ -1,0 +1,48 @@
+<config>
+    <modules>
+        <Oodda_Easycss>
+            <version>1.0.0</version>
+        </Oodda_Easycss>
+    </modules>
+    <global>
+        <helpers>
+            <easycss>
+                <class>Oodda_Easycss_Helper</class>
+            </easycss>
+        </helpers>
+    </global>
+    <frontend>  
+        <layout>
+            <updates>
+                <easycss>
+                    <file>easycss.xml</file>
+                </easycss>
+            </updates>
+        </layout>
+    </frontend>
+    <adminhtml>
+    <acl>
+        <resources>
+            <all>
+                <title>Allow Everything</title>
+            </all>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <easycss>
+                                        <title>Oodda - All</title>
+                                    </easycss>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</adminhtml>
+
+</config>

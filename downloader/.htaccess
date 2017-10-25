@@ -1,0 +1,18 @@
+order deny,allow
+deny from all
+# OODDA Office
+allow from 68.135.87.66
+# Oceana Office
+allow from 66.214.42.10
+
+<IfModule mod_deflate.c>
+
+    RemoveOutputFilter DEFLATE
+    RemoveOutputFilter GZIP
+
+</IfModule>
+
+<Files ~ "\.(cfg|ini|xml)$">
+    order allow,deny
+    deny from all
+</Files> 

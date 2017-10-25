@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+
+    <sections>
+        <cancelemail translate="label" module="cancelemail">
+            <label>Cancellation Email Automation</label>
+            <tab>oodda</tab>
+            <sort_order>1000</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+ 
+            <groups>
+                <oodda_group translate="label" module="cancelemail">
+                    <label>General</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1000</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+ 
+                    <fields>
+                        <oodda_select translate="label">
+                            <label>Enable: </label>
+                            <comment>Enable cancellation email automation, cancellation email template: /locale/en_US/template/email/cancel_email.html</comment>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>90</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                        </oodda_select>
+                    </fields>
+                </oodda_group>
+            </groups>
+        </cancelemail>
+    </sections>
+</config>

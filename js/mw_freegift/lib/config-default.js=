@@ -1,0 +1,25 @@
+var mw_baseUrl = 'http://www.nov-usa.com/';
+var mw_post_baseUrl = 'http://www.nov-usa.com/default/';
+var mw_ctrl = 'category';
+var mw_mdn = 'catalog';
+var mw_act = 'view';
+var version_num = '1.9';
+var package_name = 'smartwave';
+var theme_name   = 'legenda';
+var mw_session_id = "tia7t0quqm5sj4l7l8seh1prj7";
+var isLogged = '';
+var version = 'mc';
+window.hasGiftProduct = false;
+window.hasPromotionMessage = false;
+window.hasPromotionBanner = false;
+
+window.freegiftConfig = {
+    url: {
+        add                                 : 'http://www.nov-usa.com/index.php/freegift/cart/addg/',
+        configure                           : 'http://www.nov-usa.com/index.php/freegift/cart/configure/',
+        getproduct                          : 'http://www.nov-usa.com/index.php/freegift/cart/getproduct/',
+        updatePost                          : 'http://www.nov-usa.com/index.php/freegift/cart/updatePost/',
+        delete                              : 'http://www.nov-usa.com/index.php/freegift/cart/delete/',
+        cart                                : 'http://www.nov-usa.com/index.php/freegift/cart/'
+    },
+};
